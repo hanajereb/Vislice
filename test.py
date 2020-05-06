@@ -16,3 +16,4 @@ def je_prastevilo(n):
 for i in range(200):
     if je_prastevilo(i):
         print(i)
+        print(i)
