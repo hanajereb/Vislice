@@ -44,7 +44,8 @@ def pozeni_vmesnik():
         igra.ugibaj(poskus)
         if igra.zmaga():
             print(izpis_zmage(igra))
-            ponovni_zagon = input('Za ponovni zagon vpišite 1.\n').strip()
+            ponovni_zagon = input('Za ponovni zagon vpišite 1.\n'
+            ).strip()
             if ponovni_zagon == '1':
                 igra = model.nova_igra()
             else:
